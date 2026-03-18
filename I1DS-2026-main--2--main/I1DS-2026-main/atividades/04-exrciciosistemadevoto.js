@@ -7,7 +7,6 @@
     e se o voto é obrigatório ou opcional.
 */
 
-
 function podeVotar(idade) {
   let frase;
   if (idade < 16) {
@@ -46,17 +45,15 @@ retorne uma mensagem informando sua situação.
     A função deve retornar uma frase indicando a situação do aluno.
 */
 
-function Passou(nota) {
-  let frase;
-  if (nota < 5) {
-    frase = "reprovado";
-  } else if (nota >= 5 && nota <= 6.9) {
-    frase = "recuperação!";
-  } else {  (nota >= 7){ 
-    frase = "aprovado!";
+function Notas(notas) {
+  if (notas < 5){
+  return "Reprovado";
+  }else if (notas < 7) {
+  return "Recuperação";
+  }else {
+  return "Aprovado"
   }
-  return frase;
 }
-let nota = 6;
-console.log(" nota:", nota, "-" Passou(nota));
 
+console.log(Notas(5));
+console.log(Notas(7));
