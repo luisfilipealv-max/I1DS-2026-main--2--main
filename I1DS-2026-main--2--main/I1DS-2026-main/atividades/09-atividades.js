@@ -637,6 +637,46 @@ console.table(MATRIZ)
 
 console.log("------------------------------------------");
 
+//46.
+const MatriZ = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
+
+let somar = 0;
+
+for (let i = 0; i < MatriZ.length; i++) {
+for (let j = 0; j < MatriZ[i].length; j++) {
+soma += MatriZ[i][j];
+}
+}
+
+console.log("Soma total:", soma);
+
+console.log("-------------------------------------------")
+
+// 47
+
+const MaTriz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]
+
+let MAior = MaTriz[0][0];
+
+for (let i = 0; i < MaTriz.length; i++) {
+  for (let j = 0; j < MaTriz[i].length; j++) {
+    if (MaTriz[i][j] > MAior) {
+      MAior = MaTriz[i][j];
+    }
+  }
+}
+
+console.log(MAior);
+
+console.log("-------------------------------------------")
 //48
 let matriZ = [
 [1, 2, 3],
@@ -665,3 +705,31 @@ console.log("MatriZ depois da multiplicação:");
 for (let linha = 0; linha < 3; linha++) {
 console.log(matriZ[linha]);
 }
+//49
+let maTriz = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
+
+let contador = 0;
+
+for (let i = 0; i < maTriz.length; i++) {
+for (let j = 0; j < maTriz.length; j++) {
+if (matriz[i][j] > 10) {
+contador ++;
+}
+}
+}
+
+console.log(contador);
+
+
+console.log("--------------------------------------------------");
+//50
+let MAtriz = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9],
+];
+console.table(MAtriz);
