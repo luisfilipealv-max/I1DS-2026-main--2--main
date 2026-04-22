@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url("../img/bg-desktopdark.jpg");
+
+background-size: cover;
+}
+.my-text {
+color: white;
+text-decoration: none;
+}
+.tamanho {
+width: 400px;
+padding: 20px;
+border: 1px solid #fffff081;
+border-radius: 8px;
+}
+
+.tamanho:hover {
+border: 1px solid #fff;
+}
+
+#links {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
