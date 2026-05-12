@@ -1,4 +1,4 @@
-		* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -105,4 +105,35 @@ li {
 li:hover {
   background-color: #e2e8f0;
   transform: translateX(5px);
+}
+
+.btn {
+  color: #111827;
+  width: 50px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  display: inline;
+}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+
+th, td{
+  border:1px solid #ccc;
+  padding:10px;
+  text-align:center;
+}
+
+th{
+  background:#231818;
+  color:white;
+}
+
+hr{
+  margin:20px 0;
 }

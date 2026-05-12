@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  text-align: center;
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  color: #111827;
+  padding: 8px;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+}
+
+/* CARD */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* EXERCICIO 01 */
+.exercicio {
+  background-color: #ccc;
+  width: 500px;
+  margin: 8px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contador {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.grupo-botoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  width: 80px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  font-size: 24px;
+}
+#btn-menos {
+  background-color: red;
+}
+#btn-mais {
+  background-color: green;
+}
+#btn-zerar {
+  background-color: blueviolet;
+  font-size: 16px;
+}
+
+/* EXERCICIO 02 */
+#quadrado {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  margin: 12px auto;
+  background-color: white;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* EXERCICIO 03 */
+
+#num1,
+#num2 {
+  padding: 10px;
+  width: 170px;
+  margin: 4px;
+  margin-bottom: 12px;
+}
+
+#btn-soma,
+#btn-subtracao,
+#btn-multiplicacao,
+#btn-divisao {
+  background-color: coral;
+  font-weight: bolder;
+}
+
+#resultado {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 12px auto;
+}

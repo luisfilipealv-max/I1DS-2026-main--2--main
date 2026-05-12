@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>JavaScript | Html Dinamico</title>
+</head>
+
+<body>
+
+<h1>JavaScript | Html Dinamico</h1>
+
+<div class="card">
+<H2>Exercício 01</H2>
+<h3>Contador Simples</h3>
+<p><span>Objetivo</span>
+Criar um contador com botão +1, botão -1 e Reset</p>
+<div id="exercicio">
+<h3>Contador</h3>
+<p id="contador">0</p>
+<div class="grupo-botoes">
+<button id="btn-mais" onclick="adicionar()"> + 1 </button>
+<button id="btn-zerar" onclick="zerar()">Zerar</button>
+<button id="btn-menos" onclick="reduzir()"> - 1 </button>
+</div>
+</div>
+</div>
+<div class="card">
+<h2>Exercício 02</h2>
+<h3>Seletor de Cores</h3>
+<div class="exercicio">
+<h3>Seletor de Cores</h3>
+<p>
+<span>Objetivo:</span>
+Selecionar uma cor no color picker e aplicá-la a um quadrado.
+</p>
+
+<label>Escolha uma cor:</label>
+<input type="color" id="corPicker" placeholder="Selecione uma cor.." oninput="mudarCor()" />
+<div id="quadrado"></div>
+</div>
+
+</div>
+
+<div class="card>">
+<h2>Exercício 03</h2>
+<h3>Calculadora Simples</h3>
+<div class="exercicio">
+Calculadora Operações Básicas
+<p>
+<span>Objetivo</span>
+Criar uma Calculadora que realiza as operações de, soma
+subtração, multiplicação e divisão.
+</p>
+<input type="number" id="num1" placeholder="Número 1 "/>
+<input type="number" id="num2" placeholder="Número 2 "/>
+<div class="grupo-botoes">
+<button id="btn-soma" onclick="somar()"> + </button>
+<button id="btn-subtracao" onclick="subtrair()"> - </button>
+<button id="btn-multiplicacao" onclick="multiplicar()"> X </button>
+<button id="btn-divisao" onclick="dividir()"> / </button>
+</div>
+<p id="resultado"></p>
+</div>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
